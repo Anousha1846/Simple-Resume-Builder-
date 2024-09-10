@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  body{
+    background-color: rgb(153, 217, 236);
+
+  }
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 5px;
+    display: inline-block;
+    font-size: 20px
+
+  }
+  
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+   /* Responsive layout  */
+  @media screen and (max-width: 650px) {
+    .col-25, .col-75 {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

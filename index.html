@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styling.css" />
+    <title>Resume Builder</title>
+  </head>
+  <body style="    background-color: rgba(199, 236, 247, 0.546);
+">
+    <div id="main" style="height: 100%; width: 100%">
+      <h1 style="text-align: center; font-style: oblique">
+        <u>Resume Builder</u>
+      </h1>
+
+      <!-- personal info -->
+      <div class="container">
+        <h3><u>PERSONAL INFO:</u></h3>
+        <form>
+          <div class="row">
+            <div class="col-25">
+              <label id="name">Name:</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                required
+                onfocus="this.value=''"
+                value="Anousha Anousha"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label id="name">Date of Birth:</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="date"
+                required
+                onfocus="this.value=''"
+                value="Anousha Anousha"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label>Email Address:</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="email"
+                required
+                id="email"
+                onfocus="this.value=''"
+                value="anoushaasadullah@gmail.com"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label> Contact Number:</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="tel"
+                required
+                id="contact"
+                onfocus="this.value=''"
+                value="+92 345 0000000"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label>Profile Picture:</label>
+            </div>
+            <div class="col-75">
+              <input type="file" />
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- education -->
+      <div class="container">
+        <h3><u>EDUCATION:</u></h3>
+        <form>
+          <div class="row">
+            <div class="col-25">
+              <label id="name">Education: </label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                required
+                onfocus="this.value=''"
+                value="Masters in Mathematics/ B.Com / B.Ed"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label>Scanned Picture of Degree</label>
+            </div>
+            <div class="col-75">
+              <input type="file" />
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- skills -->
+            <div class="container" >
+        <h3><u>SKILLS:</u></h3>
+        <form>
+          <div class="row">
+            <div class="col-25">
+              <label id="name">You have expertise in: </label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                required
+                onfocus="this.value=''"
+                value="Your skills"
+              />
+            </div>
+          </div>
+          <!-- <div class="row" >
+            <div class="col-25"> </div>
+            <div class="col-75">
+              <div class="col-75">
+                <input
+                  type="text"
+                  required
+                  onfocus="this.value=''"
+                  value="Your skills"
+                /> -->
+<!--               
+               <button
+                onclick="addMore()"
+                id="addMoreSkillsBtn"
+                style="
+                  margin: 6px;
+                  border-radius: 4px;
+                  background-color: rgb(205, 244, 244);
+                  color: black;
+                  padding: 4px;
+                "
+              >Add More
+              </button> 
+               -->
+            </div>  
+            </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+
+      
+      <!--exprience  -->
+      <div class="container">
+        <h3><u>Working Experience:</u></h3>
+        <form>
+          <div class="row">
+            <div class="col-25">
+              <label id="name">No. of years: </label>
+            </div>
+            <div class="col-75">
+              <input
+                type="number"
+                required
+                onfocus="this.value='' "
+                value="8"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label id="name">Company Name </label>
+            </div>
+            <div class="col-75">
+              <input type="text" required />
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <button style="margin: 16px;
+      border-radius: 4px;
+      background-color: rgba(76, 245, 141, 0.221);
+      font-size: 17px; font-weight: bolder; 
+      color: black;
+      padding: 9px;
+    ">Buid Resume </button>
+      </div>
+    <script src="main.js"></script>
+  </body>
+</html>
